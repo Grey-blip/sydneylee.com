@@ -1,0 +1,129 @@
+/*
+Index page
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(30, 79, 63);
+    border-bottom: 20px solid rgb(30, 79, 63);
+    border-top: 20px solid rgb(30, 79, 63);
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+}
+
+
+.menu a:link, a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: rgb(235, 214, 97);
+}
+
+.menu{
+    text-align: right;
+    padding: 50px;
+    font-size: large;
+    
+}
+
+.profile{
+    width: 30%;
+}
+.profile img{
+    width:100%;
+    height: auto;
+    min-width: 100px;
+    border-radius: 90%;
+    float: right;
+    margin-left: 15px;
+}
+
+.index{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 150px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(30, 79, 63);
+    color: white;
+    display: flex;
+    gap: 580px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons{
+    color: white;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+#address{
+    text-align: right;
+    padding-right: 50px;
+}
+
+/*
+Research page
+*/
+.text{
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+.text ul{
+    list-style-type: none;
+}
+.projects{
+    text-align: left;
+}
+.text a{
+    color: black;
+    text-decoration: none;
+}
+.text a:hover{
+    color: gold;
+}
+
+/*
+About page
+*/
+.bio{
+    text-align: center;
+    padding: 50px;
+}
+.indent{
+    text-indent: 30px;
+    text-align: left;
+}
+/*
+Professional Experience Page
+*/
+.experience{
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.experience ul{
+    text-align: left;
+    list-style-type: none;
+}
