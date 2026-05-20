@@ -1,52 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ayanna S. Lee</title>
-    <meta name="author" content="Sydney Lee">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://kit.fontawesome.com/b15388b4db.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ayanna S. Lee</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/b15388b4db.js" crossorigin="anonymous"></script>
+  
 </head>
 <body>
-    <header>
-        <div id="logo">
-            <a href="index.html"><img src="pictures/CCI.png" width="400" height="100"></a>
-        </div>
-        <div class="menu">
-        <a href="index.html">Home | </a>
-        <a href="about.html">About | </a>
-        <a href="research.html">Research | </a>
-        <a href="experience.html">Professional Experience</a>
-        </div>
-    </header>
 
-    <section class="index">
-    <p><strong>Ayanna S. Lee,  BA</strong>
-        <br><br>Doctoral Student<br>College of Computing and Informatics
-        <br>University of North Carolina at Charlotte
-        <br>9201 University City Boulevard
-        <br>Charlotte, NC 28223-0001
-        <br>Email: alee164 "at" charlotte "dot" edu</p>
-    
-    
-        <figure class="profile">
-            <img src="pictures/syd.jpg" alt="Profile Picture" width="300" height="200">
-        </figure>
-    </section>
+<!-- Navigation -->
+<nav>
+  <ul class="nav-left">
+    <li><a href="#home"       data-section="home">Home</a></li>
+    <li><a href="#about"      data-section="about">About</a></li>
+    <li><a href="#experience" data-section="experience">Experience</a></li>
+    <li><a href="#research"   data-section="research">Research</a></li>
+  </ul>
+  <div class="nav-right">
+    <a href="mailto:alee164@charlotte.edu" title="Email">
+      <i class="fa-solid fa-envelope"></i>
+    </a>
+    <a href="https://linkedin.com/in/sydney-lee-8184ab1b9/" target="_blank" title="LinkedIn">
+      <i class="fa-brands fa-linkedin"></i>
+    </a>
+    <a href="https://github.com/Grey-blip" target="_blank" title="GitHub">
+      <i class="fa-brands fa-github"></i>
+    </a>
+  </div>
+</nav>
+
+<!-- ── Home ── -->
+<section id="home">
+  <div class="home-photo fade-in">
+  <img src="pictures/syd.jpg" alt="Profile Picture" width="300" height="200">
+  </div>
+  <div class="home-text fade-in" style="transition-delay:0.12s">
+    <h1>Sydney Lee, BA</h1>
+    <p class="title-line">Doctoral Student</p>
+    <p class="title-line">College of Computing and Informatics</p>
+    <p class="address">
+      University of North Carolina at Charlotte<br>
+      9201 University City Boulevard<br>
+      Charlotte, NC 28223-0001
+    </p>
+    <p class="email">Email: alee164 "at" charlotte "dot" edu</p>
+  </div>
+</section>
+
+<hr class="section-divider" />
+
+<!-- ── About ── -->
+<section id="about">
+  <div class="fade-in">
+    <p class="section-title">About</p>
+    <div class="about-text">
+      <p>Currently Ayanna Lee is a first year PhD student in the Software and
+        Information Systems Program at the University of North Carolina at Charlotte.
+        Her background in wearable technology research fuels her passion for exploring
+        the nuances associated with user interaction. More specifically,
+        working class communities' reciprocity with new age technologies. Ayanna is currently
+        working as a Research Assistant and is always interested in making more connections.</p>
+      <p>Reach out to <a href="mailto:alee164@charlotte.edu">alee164@charlotte.edu</a> to connect!</p>
+    </div>
+  </div>
+</section>
+
+<hr class="section-divider" />
+
+<!-- ── Experience ── -->
+<section id="experience">
+  <div class="exp-layout fade-in">
+
+    <div class="exp-sidebar">
+      <p class="section-title">Academic Experience</p>
+      <p class="exp-sidebar-blurb">These are roles that have shaped my research to develop a deeper understanding of how technology impacts the greater charlotte community.</p>
+    </div>
+
+    <ul class="exp-list">
+
+      <li class="exp-item">
+        <div class="exp-dates">Aug 2025</div>
+        <div class="exp-content">
+          <strong>University of North Carolina at Charlotte</strong>
+          <p class="exp-role">Graduate Research Assistant</p>
+          <p class="exp-desc">Conducted exploratory research in human‑centered computing by reviewing literature, developing research questions, and crafting academic papers.</p>
+        </div>
+      </li>
+
+      <li class="exp-item">
+        <div class="exp-dates">Aug 2024</div>
+        <div class="exp-content">
+          <strong>Forty-Niner Intensive Transition (FIT)</strong>
+          <p class="exp-role">Peer Mentor</p>
+          <p class="exp-desc">Mentored Computer Science students by teaching Python concepts and solving technical challenges, enhancing both academic performance and community engagement.</p>
+        </div>
+      </li>
+
+      <li class="exp-item">
+        <div class="exp-dates">May 2024 &ndash;<br>Aug 2024</div>
+        <div class="exp-content">
+          <strong>Louis Stokes Alliances for Minority Participation</strong>
+          <p class="exp-role">Summer Researcher</p>
+          <p class="exp-desc">Designed a prototype mental health application to manage depression and anxiety, demonstrating analytical and problem-solving skills. Presented research findings at the OUR Summer Research Symposium and in a detailed research paper.</p>
+        </div>
+      </li>
+
+      <li class="exp-item">
+        <div class="exp-dates">Aug 2023 &ndash;<br>May 2024</div>
+        <div class="exp-content">
+          <strong>University of North Carolina at Charlotte</strong>
+          <p class="exp-role">Undergraduate Researcher</p>
+          <p class="exp-desc">Analyzed mental health applications to identify key themes for technology improvements, applying strong analytical skills. Documented findings in a comprehensive research report for faculty review.</p>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+</section>
+
+<hr class="section-divider" />
+
+<!-- ── Research ── -->
+<section id="research">
+  <div class="research-layout fade-in">
+
+    <div class="research-sidebar">
+      <p class="section-title">Research Interests</p>
+      <div class="interest-item">Accountability in AI</div>
+      <div class="interest-item">Human-Computer Interaction</div>
+      <div class="interest-item">Health Informatics</div>
+      <div class="interest-item">Marginalized Communities &amp; Technology</div>
+    </div>
+
+    <div class="research-projects">
+      <p class="projects-title">Projects</p>
+
+      <div class="project-item">
+        <div class="project-year">2023 &ndash; 2024</div>
+        <p class="project-title">The Decomposition of Mental Health Barriers within the African American Community</p>
+        <p class="project-desc">Can an application be created that effectively identifies mental health distress and recommends a tailored intervention before it manifests into a crisis? This project aimed to mitigate the mental health disparities that plague the African American community. It contributes to providing effective healthcare interventions for marginalized communities traditionally excluded from healthcare research.</p>
+        <p class="project-link"><a href="https://youtu.be/F3TObBkYYmM?si=kQsl3Mh6UOhBIjj9" target="_blank">&#8599; View Presentation</a></p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<script>
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('.nav-left a[data-section]');
+
+  const secObserver = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        navLinks.forEach(a => a.classList.remove('active'));
+        const active = document.querySelector(`.nav-left a[data-section="${e.target.id}"]`);
+        if (active) active.classList.add('active');
+      }
+    });
+  }, { threshold: 0.4 });
+  sections.forEach(s => secObserver.observe(s));
+
+  const fadeEls = document.querySelectorAll('.fade-in');
+  const fadeObserver = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+        fadeObserver.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.1 });
+  fadeEls.forEach(el => fadeObserver.observe(el));
+
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      e.preventDefault();
+      const t = document.querySelector(a.getAttribute('href'));
+      if (t) t.scrollIntoView({ behavior: 'smooth' });
+    });
+  });
+</script>
+
 </body>
-<footer>
-    <div class="icons">
-    <!-- Linkedin icon -->
-    <i class="fa-brands fa-linkedin"></i>
-    <!-- Facebook icon --> 
-    <i class="fa-brands fa-square-facebook"></i>
-    <!-- Instagram icon -->
-    <i class="fa-brands fa-square-instagram"></i>
-    </div>
-
-    <div id="address">
-        <p><small> 9201 University City Blvd, Charlotte, NC 28223-0001</small></p>
-    </div>
-</footer>
 </html>
